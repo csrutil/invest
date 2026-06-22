@@ -35,5 +35,8 @@ Retain legal issuer, country, listing aliases, value-chain layer, concrete produ
 ## Resources
 
 - Read [references/rubric.md](references/rubric.md) before scoring.
+- Run `scripts/build_universe.mjs --report <industry.md> --data <radar.json> --output <universe.json>` to add every listing identifier to the master registry before research begins.
+- Run `scripts/render_universe.mjs <universe.json> <universe.md>` to publish every completed and pending identifier.
+- Run `scripts/validate_universe.mjs <universe.json>` to reject duplicate IDs, unresolved names or silent missing-state records.
 - Run `scripts/audit_coverage.mjs --report <industry.md> --data <radar.json> --output <coverage.md>` to enumerate missing identifiers.
 - Run `scripts/validate_dataset.mjs <radar.json>` before generating charts or committing.

@@ -1,0 +1,2463 @@
+{
+  "asOf": "2026-06-22",
+  "listingCount": 145,
+  "companies": [
+    {
+      "id": "AMS:ASM",
+      "issuerName": "ASM International",
+      "exchange": "AMS",
+      "ticker": "ASM",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "AMS:BESI",
+      "issuerName": "BESI",
+      "exchange": "AMS",
+      "ticker": "BESI",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "ASX:NXT",
+      "issuerName": "NEXTDC",
+      "exchange": "ASX",
+      "ticker": "NXT",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "BIT:PRY",
+      "issuerName": "Prysmian",
+      "exchange": "BIT",
+      "ticker": "PRY",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "CPH:ASTK",
+      "issuerName": "Asetek",
+      "exchange": "CPH",
+      "ticker": "ASTK",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "EPA:AI",
+      "issuerName": "Air Liquide",
+      "exchange": "EPA",
+      "ticker": "AI",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "EPA:SU",
+      "issuerName": "Schneider Electric",
+      "exchange": "EPA",
+      "ticker": "SU",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "HKEX:0700",
+      "issuerName": "Tencent",
+      "exchange": "HKEX",
+      "ticker": "0700",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "HKEX:0981",
+      "issuerName": "SMIC",
+      "exchange": "HKEX",
+      "ticker": "0981",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "HKEX:6869",
+      "issuerName": "Yangtze Optical Fibre and Cable",
+      "exchange": "HKEX",
+      "ticker": "6869",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "HKEX:9888",
+      "issuerName": "Baidu",
+      "exchange": "HKEX",
+      "ticker": "9888",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "HKEX:9988",
+      "issuerName": "Alibaba",
+      "exchange": "HKEX",
+      "ticker": "9988",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "KRX:000660",
+      "issuerName": "SK hynix",
+      "exchange": "KRX",
+      "ticker": "000660",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "KRX:005930",
+      "issuerName": "Samsung Electronics",
+      "exchange": "KRX",
+      "ticker": "005930",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "NASDAQ:AAOI",
+      "issuerName": "Applied Optoelectronics",
+      "exchange": "NASDAQ",
+      "ticker": "AAOI",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "NASDAQ:ADBE",
+      "issuerName": "Adobe",
+      "exchange": "NASDAQ",
+      "ticker": "ADBE",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "NASDAQ:AKAM",
+      "issuerName": "Akamai",
+      "exchange": "NASDAQ",
+      "ticker": "AKAM",
+      "radarStatus": "complete",
+      "confidence": "low",
+      "missing": []
+    },
+    {
+      "id": "NASDAQ:ALAB",
+      "issuerName": "Astera Labs",
+      "exchange": "NASDAQ",
+      "ticker": "ALAB",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "NASDAQ:AMAT",
+      "issuerName": "Applied Materials",
+      "exchange": "NASDAQ",
+      "ticker": "AMAT",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "NASDAQ:AMD",
+      "issuerName": "AMD",
+      "exchange": "NASDAQ",
+      "ticker": "AMD",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "NASDAQ:AMKR",
+      "issuerName": "Amkor",
+      "exchange": "NASDAQ",
+      "ticker": "AMKR",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "NASDAQ:AMZN",
+      "issuerName": "Amazon",
+      "exchange": "NASDAQ",
+      "ticker": "AMZN",
+      "radarStatus": "complete",
+      "confidence": "moderate",
+      "missing": []
+    },
+    {
+      "id": "NASDAQ:ARM",
+      "issuerName": "Arm Holdings",
+      "exchange": "NASDAQ",
+      "ticker": "ARM",
+      "radarStatus": "complete",
+      "confidence": "high",
+      "missing": []
+    },
+    {
+      "id": "NASDAQ:ASML",
+      "issuerName": "ASML",
+      "exchange": "NASDAQ",
+      "ticker": "ASML",
+      "radarStatus": "complete",
+      "confidence": "high",
+      "missing": []
+    },
+    {
+      "id": "NASDAQ:AVGO",
+      "issuerName": "Broadcom",
+      "exchange": "NASDAQ",
+      "ticker": "AVGO",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "NASDAQ:BIDU",
+      "issuerName": "Baidu",
+      "exchange": "NASDAQ",
+      "ticker": "BIDU",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "NASDAQ:CDNS",
+      "issuerName": "Cadence",
+      "exchange": "NASDAQ",
+      "ticker": "CDNS",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "NASDAQ:COMM",
+      "issuerName": "CommScope",
+      "exchange": "NASDAQ",
+      "ticker": "COMM",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "NASDAQ:CRDO",
+      "issuerName": "Credo",
+      "exchange": "NASDAQ",
+      "ticker": "CRDO",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "NASDAQ:CRWV",
+      "issuerName": "CoreWeave",
+      "exchange": "NASDAQ",
+      "ticker": "CRWV",
+      "radarStatus": "complete",
+      "confidence": "low",
+      "missing": []
+    },
+    {
+      "id": "NASDAQ:CSCO",
+      "issuerName": "Cisco",
+      "exchange": "NASDAQ",
+      "ticker": "CSCO",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "NASDAQ:DDOG",
+      "issuerName": "Datadog",
+      "exchange": "NASDAQ",
+      "ticker": "DDOG",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "NASDAQ:ENTG",
+      "issuerName": "Entegris",
+      "exchange": "NASDAQ",
+      "ticker": "ENTG",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "NASDAQ:EQIX",
+      "issuerName": "Equinix",
+      "exchange": "NASDAQ",
+      "ticker": "EQIX",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "NASDAQ:GDS",
+      "issuerName": "GDS",
+      "exchange": "NASDAQ",
+      "ticker": "GDS",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "NASDAQ:GFS",
+      "issuerName": "GlobalFoundries",
+      "exchange": "NASDAQ",
+      "ticker": "GFS",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "NASDAQ:GOOGL",
+      "issuerName": "Alphabet",
+      "exchange": "NASDAQ",
+      "ticker": "GOOGL",
+      "radarStatus": "complete",
+      "confidence": "moderate",
+      "missing": []
+    },
+    {
+      "id": "NASDAQ:INTC",
+      "issuerName": "Intel",
+      "exchange": "NASDAQ",
+      "ticker": "INTC",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "NASDAQ:KLAC",
+      "issuerName": "KLA",
+      "exchange": "NASDAQ",
+      "ticker": "KLAC",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "NASDAQ:LIN",
+      "issuerName": "Linde",
+      "exchange": "NASDAQ",
+      "ticker": "LIN",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "NASDAQ:LITE",
+      "issuerName": "Lumentum",
+      "exchange": "NASDAQ",
+      "ticker": "LITE",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "NASDAQ:LRCX",
+      "issuerName": "Lam Research",
+      "exchange": "NASDAQ",
+      "ticker": "LRCX",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "NASDAQ:MDB",
+      "issuerName": "MongoDB",
+      "exchange": "NASDAQ",
+      "ticker": "MDB",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "NASDAQ:META",
+      "issuerName": "Meta",
+      "exchange": "NASDAQ",
+      "ticker": "META",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "NASDAQ:MRVL",
+      "issuerName": "Marvell Technology",
+      "exchange": "NASDAQ",
+      "ticker": "MRVL",
+      "radarStatus": "complete",
+      "confidence": "moderate",
+      "missing": []
+    },
+    {
+      "id": "NASDAQ:MSFT",
+      "issuerName": "Microsoft",
+      "exchange": "NASDAQ",
+      "ticker": "MSFT",
+      "radarStatus": "complete",
+      "confidence": "moderate",
+      "missing": []
+    },
+    {
+      "id": "NASDAQ:MTSI",
+      "issuerName": "MACOM",
+      "exchange": "NASDAQ",
+      "ticker": "MTSI",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "NASDAQ:MU",
+      "issuerName": "Micron",
+      "exchange": "NASDAQ",
+      "ticker": "MU",
+      "radarStatus": "complete",
+      "confidence": "moderate",
+      "missing": []
+    },
+    {
+      "id": "NASDAQ:MXL",
+      "issuerName": "MaxLinear",
+      "exchange": "NASDAQ",
+      "ticker": "MXL",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "NASDAQ:NBIS",
+      "issuerName": "Nebius Group",
+      "exchange": "NASDAQ",
+      "ticker": "NBIS",
+      "radarStatus": "complete",
+      "confidence": "high",
+      "missing": []
+    },
+    {
+      "id": "NASDAQ:NVDA",
+      "issuerName": "NVIDIA",
+      "exchange": "NASDAQ",
+      "ticker": "NVDA",
+      "radarStatus": "complete",
+      "confidence": "high",
+      "missing": []
+    },
+    {
+      "id": "NASDAQ:PLTR",
+      "issuerName": "Palantir",
+      "exchange": "NASDAQ",
+      "ticker": "PLTR",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "NASDAQ:QCOM",
+      "issuerName": "Qualcomm",
+      "exchange": "NASDAQ",
+      "ticker": "QCOM",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "NASDAQ:SANM",
+      "issuerName": "Sanmina",
+      "exchange": "NASDAQ",
+      "ticker": "SANM",
+      "radarStatus": "complete",
+      "confidence": "low",
+      "missing": []
+    },
+    {
+      "id": "NASDAQ:SMCI",
+      "issuerName": "Super Micro",
+      "exchange": "NASDAQ",
+      "ticker": "SMCI",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "NASDAQ:SMTC",
+      "issuerName": "Semtech",
+      "exchange": "NASDAQ",
+      "ticker": "SMTC",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "NASDAQ:SNDK",
+      "issuerName": "SanDisk",
+      "exchange": "NASDAQ",
+      "ticker": "SNDK",
+      "radarStatus": "complete",
+      "confidence": "moderate",
+      "missing": []
+    },
+    {
+      "id": "NASDAQ:SNPS",
+      "issuerName": "Synopsys",
+      "exchange": "NASDAQ",
+      "ticker": "SNPS",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "NASDAQ:STX",
+      "issuerName": "Seagate",
+      "exchange": "NASDAQ",
+      "ticker": "STX",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "NASDAQ:TER",
+      "issuerName": "Teradyne",
+      "exchange": "NASDAQ",
+      "ticker": "TER",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "NASDAQ:VNET",
+      "issuerName": "VNET",
+      "exchange": "NASDAQ",
+      "ticker": "VNET",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "NASDAQ:WDC",
+      "issuerName": "Western Digital",
+      "exchange": "NASDAQ",
+      "ticker": "WDC",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "NYSE:AI",
+      "issuerName": "C3.ai",
+      "exchange": "NYSE",
+      "ticker": "AI",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "NYSE:ANET",
+      "issuerName": "Arista",
+      "exchange": "NYSE",
+      "ticker": "ANET",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "NYSE:APD",
+      "issuerName": "Air Products",
+      "exchange": "NYSE",
+      "ticker": "APD",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "NYSE:APH",
+      "issuerName": "Amphenol",
+      "exchange": "NYSE",
+      "ticker": "APH",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "NYSE:ASX",
+      "issuerName": "ASE Technology",
+      "exchange": "NYSE",
+      "ticker": "ASX",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "NYSE:BABA",
+      "issuerName": "Alibaba",
+      "exchange": "NYSE",
+      "ticker": "BABA",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "NYSE:BDC",
+      "issuerName": "Belden",
+      "exchange": "NYSE",
+      "ticker": "BDC",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "NYSE:BE",
+      "issuerName": "Bloom Energy",
+      "exchange": "NYSE",
+      "ticker": "BE",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "NYSE:CARR",
+      "issuerName": "Carrier",
+      "exchange": "NYSE",
+      "ticker": "CARR",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "NYSE:CAT",
+      "issuerName": "Caterpillar",
+      "exchange": "NYSE",
+      "ticker": "CAT",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "NYSE:CIEN",
+      "issuerName": "Ciena",
+      "exchange": "NYSE",
+      "ticker": "CIEN",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "NYSE:CLS",
+      "issuerName": "Celestica",
+      "exchange": "NYSE",
+      "ticker": "CLS",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "NYSE:CMI",
+      "issuerName": "Cummins",
+      "exchange": "NYSE",
+      "ticker": "CMI",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "NYSE:COHR",
+      "issuerName": "Coherent",
+      "exchange": "NYSE",
+      "ticker": "COHR",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "NYSE:CRM",
+      "issuerName": "Salesforce",
+      "exchange": "NYSE",
+      "ticker": "CRM",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "NYSE:DELL",
+      "issuerName": "Dell",
+      "exchange": "NYSE",
+      "ticker": "DELL",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "NYSE:DLR",
+      "issuerName": "Digital Realty",
+      "exchange": "NYSE",
+      "ticker": "DLR",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "NYSE:ETN",
+      "issuerName": "Eaton",
+      "exchange": "NYSE",
+      "ticker": "ETN",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "NYSE:FN",
+      "issuerName": "Fabrinet",
+      "exchange": "NYSE",
+      "ticker": "FN",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "NYSE:FSLY",
+      "issuerName": "Fastly",
+      "exchange": "NYSE",
+      "ticker": "FSLY",
+      "radarStatus": "complete",
+      "confidence": "low",
+      "missing": []
+    },
+    {
+      "id": "NYSE:GEV",
+      "issuerName": "GE Vernova",
+      "exchange": "NYSE",
+      "ticker": "GEV",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "NYSE:GLW",
+      "issuerName": "Corning",
+      "exchange": "NYSE",
+      "ticker": "GLW",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "NYSE:HPE",
+      "issuerName": "HPE",
+      "exchange": "NYSE",
+      "ticker": "HPE",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "NYSE:IBM",
+      "issuerName": "IBM",
+      "exchange": "NYSE",
+      "ticker": "IBM",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "NYSE:JCI",
+      "issuerName": "Johnson Controls",
+      "exchange": "NYSE",
+      "ticker": "JCI",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "NYSE:MOD",
+      "issuerName": "Modine",
+      "exchange": "NYSE",
+      "ticker": "MOD",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "NYSE:NET",
+      "issuerName": "Cloudflare",
+      "exchange": "NYSE",
+      "ticker": "NET",
+      "radarStatus": "complete",
+      "confidence": "moderate",
+      "missing": []
+    },
+    {
+      "id": "NYSE:NOW",
+      "issuerName": "ServiceNow",
+      "exchange": "NYSE",
+      "ticker": "NOW",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "NYSE:NVT",
+      "issuerName": "nVent",
+      "exchange": "NYSE",
+      "ticker": "NVT",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "NYSE:ORCL",
+      "issuerName": "Oracle",
+      "exchange": "NYSE",
+      "ticker": "ORCL",
+      "radarStatus": "complete",
+      "confidence": "low",
+      "missing": []
+    },
+    {
+      "id": "NYSE:SNOW",
+      "issuerName": "Snowflake",
+      "exchange": "NYSE",
+      "ticker": "SNOW",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "NYSE:TEL",
+      "issuerName": "TE Connectivity",
+      "exchange": "NYSE",
+      "ticker": "TEL",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "NYSE:TSM",
+      "issuerName": "TSMC ADR",
+      "exchange": "NYSE",
+      "ticker": "TSM",
+      "radarStatus": "complete",
+      "confidence": "high",
+      "missing": []
+    },
+    {
+      "id": "NYSE:TT",
+      "issuerName": "Trane Technologies",
+      "exchange": "NYSE",
+      "ticker": "TT",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "NYSE:UMC",
+      "issuerName": "UMC",
+      "exchange": "NYSE",
+      "ticker": "UMC",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "NYSE:VRT",
+      "issuerName": "Vertiv",
+      "exchange": "NYSE",
+      "ticker": "VRT",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "SGX:AJBU",
+      "issuerName": "Keppel DC REIT",
+      "exchange": "SGX",
+      "ticker": "AJBU",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "SIX:ABB",
+      "issuerName": "ABB",
+      "exchange": "SIX",
+      "ticker": "ABB",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "SSE:600487",
+      "issuerName": "Hengtong Optic-Electric",
+      "exchange": "SSE",
+      "ticker": "600487",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "SSE:600522",
+      "issuerName": "ZTT",
+      "exchange": "SSE",
+      "ticker": "600522",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "SSE:600584",
+      "issuerName": "JCET",
+      "exchange": "SSE",
+      "ticker": "600584",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "SSE:601869",
+      "issuerName": "Yangtze Optical Fibre and Cable",
+      "exchange": "SSE",
+      "ticker": "601869",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "SSE:688981",
+      "issuerName": "SMIC",
+      "exchange": "SSE",
+      "ticker": "688981",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "STO:MTRS",
+      "issuerName": "Munters",
+      "exchange": "STO",
+      "ticker": "MTRS",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "SZSE:000988",
+      "issuerName": "HG Genuine/HTGD",
+      "exchange": "SZSE",
+      "ticker": "000988",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "SZSE:002156",
+      "issuerName": "Tongfu Microelectronics",
+      "exchange": "SZSE",
+      "ticker": "002156",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "SZSE:002281",
+      "issuerName": "Accelink",
+      "exchange": "SZSE",
+      "ticker": "002281",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "SZSE:300308",
+      "issuerName": "Zhongji Innolight",
+      "exchange": "SZSE",
+      "ticker": "300308",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "SZSE:300394",
+      "issuerName": "TFC Optical",
+      "exchange": "SZSE",
+      "ticker": "300394",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "SZSE:300502",
+      "issuerName": "Eoptolink",
+      "exchange": "SZSE",
+      "ticker": "300502",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "TSE:2802",
+      "issuerName": "Ajinomoto",
+      "exchange": "TSE",
+      "ticker": "2802",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "TSE:285A",
+      "issuerName": "Kioxia",
+      "exchange": "TSE",
+      "ticker": "285A",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "TSE:3436",
+      "issuerName": "SUMCO",
+      "exchange": "TSE",
+      "ticker": "3436",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "TSE:4062",
+      "issuerName": "Ibiden",
+      "exchange": "TSE",
+      "ticker": "4062",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "TSE:4063",
+      "issuerName": "Shin-Etsu Chemical",
+      "exchange": "TSE",
+      "ticker": "4063",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "TSE:5801",
+      "issuerName": "Furukawa Electric",
+      "exchange": "TSE",
+      "ticker": "5801",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "TSE:5802",
+      "issuerName": "Sumitomo Electric",
+      "exchange": "TSE",
+      "ticker": "5802",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "TSE:5803",
+      "issuerName": "Fujikura",
+      "exchange": "TSE",
+      "ticker": "5803",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "TSE:6146",
+      "issuerName": "Disco",
+      "exchange": "TSE",
+      "ticker": "6146",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "TSE:6367",
+      "issuerName": "Daikin",
+      "exchange": "TSE",
+      "ticker": "6367",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "TSE:6594",
+      "issuerName": "Nidec",
+      "exchange": "TSE",
+      "ticker": "6594",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "TSE:6857",
+      "issuerName": "Advantest",
+      "exchange": "TSE",
+      "ticker": "6857",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "TSE:6967",
+      "issuerName": "Shinko Electric",
+      "exchange": "TSE",
+      "ticker": "6967",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "TSE:8035",
+      "issuerName": "Tokyo Electron",
+      "exchange": "TSE",
+      "ticker": "8035",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "TWSE:2303",
+      "issuerName": "UMC",
+      "exchange": "TWSE",
+      "ticker": "2303",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "TWSE:2308",
+      "issuerName": "Delta Electronics",
+      "exchange": "TWSE",
+      "ticker": "2308",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "TWSE:2317",
+      "issuerName": "Hon Hai/Foxconn",
+      "exchange": "TWSE",
+      "ticker": "2317",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "TWSE:2330",
+      "issuerName": "TSMC",
+      "exchange": "TWSE",
+      "ticker": "2330",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "TWSE:2356",
+      "issuerName": "Inventec",
+      "exchange": "TWSE",
+      "ticker": "2356",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "TWSE:2382",
+      "issuerName": "Quanta",
+      "exchange": "TWSE",
+      "ticker": "2382",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "TWSE:2454",
+      "issuerName": "MediaTek",
+      "exchange": "TWSE",
+      "ticker": "2454",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "TWSE:3037",
+      "issuerName": "Unimicron",
+      "exchange": "TWSE",
+      "ticker": "3037",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "TWSE:3231",
+      "issuerName": "Wistron",
+      "exchange": "TWSE",
+      "ticker": "3231",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "TWSE:3443",
+      "issuerName": "GUC",
+      "exchange": "TWSE",
+      "ticker": "3443",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "TWSE:3661",
+      "issuerName": "Alchip",
+      "exchange": "TWSE",
+      "ticker": "3661",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "TWSE:3711",
+      "issuerName": "ASE Technology",
+      "exchange": "TWSE",
+      "ticker": "3711",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "TWSE:6239",
+      "issuerName": "Powertech",
+      "exchange": "TWSE",
+      "ticker": "6239",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "TWSE:6488",
+      "issuerName": "GlobalWafers",
+      "exchange": "TWSE",
+      "ticker": "6488",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "TWSE:6669",
+      "issuerName": "Wiwynn",
+      "exchange": "TWSE",
+      "ticker": "6669",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "TWSE:8046",
+      "issuerName": "Nan Ya PCB",
+      "exchange": "TWSE",
+      "ticker": "8046",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "Xetra:ENR",
+      "issuerName": "Siemens Energy",
+      "exchange": "Xetra",
+      "ticker": "ENR",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "Xetra:SIE",
+      "issuerName": "Siemens",
+      "exchange": "Xetra",
+      "ticker": "SIE",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    },
+    {
+      "id": "Xetra:WAF",
+      "issuerName": "Siltronic",
+      "exchange": "Xetra",
+      "ticker": "WAF",
+      "radarStatus": "pending",
+      "confidence": "unknown",
+      "missing": [
+        "canonicalIssuer",
+        "financials",
+        "marketStructure",
+        "risks",
+        "beneficialOwnership",
+        "13FApplicability",
+        "valuationInputs",
+        "radarScores"
+      ]
+    }
+  ]
+}

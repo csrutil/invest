@@ -5,6 +5,8 @@
 **Output:** one investment-quality chart and one risk chart per company  
 **Confidence:** company-specific; shown on every chart and in the source dataset
 
+Complete universe registry: [all 145 exchange/ticker identifiers and research status](ai-company-universe.md). Companies without the completion-gate evidence remain explicitly `pending` rather than disappearing from this report or receiving fabricated scores.
+
 ## Reading the charts
 
 The quality chart is directional: higher is better. The risk chart is also directional, but higher is worse. The charts are deliberately separate so that high AI exposure is not visually treated as the same thing as low risk.

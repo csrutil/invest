@@ -136,3 +136,4 @@ The strategy should change only when better evidence or a clearly specified inve
 - [Global AI industry: value chain, market structure, stock data, and ownership](reports/ai-industry.md)
 - [AI company radar charts: investment quality, risk, control, and 13F ownership](reports/ai-company-radar.md)
 - [Radar-chart coverage audit: completed and missing companies](reports/radar-coverage.md)
+- [Global AI public-company master universe: all identifiers and research status](reports/ai-company-universe.md)
