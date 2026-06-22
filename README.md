@@ -130,3 +130,7 @@ Sources are primary research or institutional investor-education material. Acces
 ## Maintaining this repository
 
 The strategy should change only when better evidence or a clearly specified investor constraint changes the conclusion. Market forecasts alone are not evidence.
+
+## Research reports
+
+- [U.S.-listed AI companies with monopoly-like products](reports/ai-industry.md)
