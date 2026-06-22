@@ -134,3 +134,4 @@ The strategy should change only when better evidence or a clearly specified inve
 ## Research reports
 
 - [Global AI industry: value chain, market structure, stock data, and ownership](reports/ai-industry.md)
+- [AI company radar charts: investment quality, risk, control, and 13F ownership](reports/ai-company-radar.md)

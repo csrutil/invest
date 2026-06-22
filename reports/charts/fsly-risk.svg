@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="650" viewBox="0 0 900 650" role="img" aria-labelledby="title desc">
+  <title id="title">Fastly Risk exposure — higher is worse</title>
+  <desc id="desc">Radar score based on the dated evidence and rubric in reports/ai-company-radar.md.</desc>
+  <rect width="100%" height="100%" fill="#ffffff"/>
+  <text x="42" y="45" font-size="25" font-weight="700" fill="#111827">Fastly (FSLY)</text>
+  <text x="42" y="75" font-size="17" fill="#c34232">Risk exposure — higher is worse</text>
+  <text x="620" y="115" font-size="14" fill="#4b5563">Evidence date: 2026-06-22</text>
+  <text x="620" y="142" font-size="14" fill="#4b5563">Confidence: low</text>
+  <text x="620" y="169" font-size="14" fill="#4b5563">Peer group: Edge cloud</text>
+  <polygon points="330.0,286.0 361.1,298.9 374.0,330.0 361.1,361.1 330.0,374.0 298.9,361.1 286.0,330.0 298.9,298.9" fill="none" stroke="#d5d9dd" stroke-width="1"/>
+<polygon points="330.0,242.0 392.2,267.8 418.0,330.0 392.2,392.2 330.0,418.0 267.8,392.2 242.0,330.0 267.8,267.8" fill="none" stroke="#d5d9dd" stroke-width="1"/>
+<polygon points="330.0,198.0 423.3,236.7 462.0,330.0 423.3,423.3 330.0,462.0 236.7,423.3 198.0,330.0 236.7,236.7" fill="none" stroke="#d5d9dd" stroke-width="1"/>
+<polygon points="330.0,154.0 454.5,205.5 506.0,330.0 454.5,454.5 330.0,506.0 205.5,454.5 154.0,330.0 205.5,205.5" fill="none" stroke="#d5d9dd" stroke-width="1"/>
+<polygon points="330.0,110.0 485.6,174.4 550.0,330.0 485.6,485.6 330.0,550.0 174.4,485.6 110.0,330.0 174.4,174.4" fill="none" stroke="#d5d9dd" stroke-width="1"/>
+  <line x1="330" y1="330" x2="330.0" y2="110.0" stroke="#b8bec4"/>
+    <text x="330.0" y="68.0" text-anchor="middle" dominant-baseline="middle" font-size="14">Customer concentration</text>
+<line x1="330" y1="330" x2="485.6" y2="174.4" stroke="#b8bec4"/>
+    <text x="515.3" y="144.7" text-anchor="start" dominant-baseline="middle" font-size="14">Supplier concentration</text>
+<line x1="330" y1="330" x2="550.0" y2="330.0" stroke="#b8bec4"/>
+    <text x="592.0" y="330.0" text-anchor="start" dominant-baseline="middle" font-size="14">Technology substitution</text>
+<line x1="330" y1="330" x2="485.6" y2="485.6" stroke="#b8bec4"/>
+    <text x="515.3" y="515.3" text-anchor="start" dominant-baseline="middle" font-size="14">Capital / financing</text>
+<line x1="330" y1="330" x2="330.0" y2="550.0" stroke="#b8bec4"/>
+    <text x="330.0" y="592.0" text-anchor="middle" dominant-baseline="middle" font-size="14">Cyclicality</text>
+<line x1="330" y1="330" x2="174.4" y2="485.6" stroke="#b8bec4"/>
+    <text x="144.7" y="515.3" text-anchor="end" dominant-baseline="middle" font-size="14">Geopolitics / regulation</text>
+<line x1="330" y1="330" x2="110.0" y2="330.0" stroke="#b8bec4"/>
+    <text x="68.0" y="330.0" text-anchor="end" dominant-baseline="middle" font-size="14">Valuation compression</text>
+<line x1="330" y1="330" x2="174.4" y2="174.4" stroke="#b8bec4"/>
+    <text x="144.7" y="144.7" text-anchor="end" dominant-baseline="middle" font-size="14">Governance / execution</text>
+  <polygon points="330.0,198.0 400.0,260.0 506.0,330.0 431.1,431.1 330.0,429.0 283.3,376.7 198.0,330.0 236.7,236.7" fill="#c34232" fill-opacity="0.24" stroke="#c34232" stroke-width="3"/>
+  <circle cx="330.0" cy="198.0" r="4" fill="#c34232"><title>Customer concentration: 60</title></circle>
+<circle cx="400.0" cy="260.0" r="4" fill="#c34232"><title>Supplier concentration: 45</title></circle>
+<circle cx="506.0" cy="330.0" r="4" fill="#c34232"><title>Technology substitution: 80</title></circle>
+<circle cx="431.1" cy="431.1" r="4" fill="#c34232"><title>Capital / financing: 65</title></circle>
+<circle cx="330.0" cy="429.0" r="4" fill="#c34232"><title>Cyclicality: 45</title></circle>
+<circle cx="283.3" cy="376.7" r="4" fill="#c34232"><title>Geopolitics / regulation: 30</title></circle>
+<circle cx="198.0" cy="330.0" r="4" fill="#c34232"><title>Valuation compression: 60</title></circle>
+<circle cx="236.7" cy="236.7" r="4" fill="#c34232"><title>Governance / execution: 60</title></circle>
+  <text x="620" y="205" font-size="15" font-weight="700" fill="#111827">Scores (0–100)</text>
+  <text x="620" y="230" font-size="14" fill="#30363d">Customer concentration: 60</text>
+<text x="620" y="259" font-size="14" fill="#30363d">Supplier concentration: 45</text>
+<text x="620" y="288" font-size="14" fill="#30363d">Technology substitution: 80</text>
+<text x="620" y="317" font-size="14" fill="#30363d">Capital / financing: 65</text>
+<text x="620" y="346" font-size="14" fill="#30363d">Cyclicality: 45</text>
+<text x="620" y="375" font-size="14" fill="#30363d">Geopolitics / regulation: 30</text>
+<text x="620" y="404" font-size="14" fill="#30363d">Valuation compression: 60</text>
+<text x="620" y="433" font-size="14" fill="#30363d">Governance / execution: 60</text>
+  <text x="42" y="625" font-size="12" fill="#6b7280">Scores are rubric-based research assessments, not measurements or forecasts. See source file for inputs and ownership definitions.</text>
+</svg>

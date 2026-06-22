@@ -1,0 +1,162 @@
+{
+  "asOf": "2026-06-22",
+  "scale": "0-100",
+  "qualityDimensions": [
+    {"key": "aiExposure", "label": "AI exposure"},
+    {"key": "marketPower", "label": "Market power"},
+    {"key": "growth", "label": "Growth"},
+    {"key": "profitability", "label": "Profitability"},
+    {"key": "capitalEfficiency", "label": "Capital efficiency"},
+    {"key": "balanceSheet", "label": "Balance sheet"},
+    {"key": "valuationSupport", "label": "Valuation support"},
+    {"key": "governance", "label": "Governance"}
+  ],
+  "riskDimensions": [
+    {"key": "customerConcentration", "label": "Customer concentration"},
+    {"key": "supplierConcentration", "label": "Supplier concentration"},
+    {"key": "technologySubstitution", "label": "Technology substitution"},
+    {"key": "capitalFinancing", "label": "Capital / financing"},
+    {"key": "cyclicality", "label": "Cyclicality"},
+    {"key": "geopoliticsRegulation", "label": "Geopolitics / regulation"},
+    {"key": "valuationCompression", "label": "Valuation compression"},
+    {"key": "governanceExecution", "label": "Governance / execution"}
+  ],
+  "companies": [
+    {
+      "ticker": "MSFT", "name": "Microsoft", "peerGroup": "Hyperscale cloud", "confidence": "moderate",
+      "controlHolder": "No controlling shareholder disclosed; widely held",
+      "largest13F": "Vanguard Group Inc — 2025-12-31",
+      "quality": {"aiExposure": 65, "marketPower": 75, "growth": 65, "profitability": 85, "capitalEfficiency": 75, "balanceSheet": 95, "valuationSupport": 50, "governance": 80},
+      "risk": {"customerConcentration": 30, "supplierConcentration": 45, "technologySubstitution": 55, "capitalFinancing": 50, "cyclicality": 30, "geopoliticsRegulation": 45, "valuationCompression": 65, "governanceExecution": 25},
+      "evidence": ["msft-10k", "nasdaq-13f"]
+    },
+    {
+      "ticker": "AMZN", "name": "Amazon", "peerGroup": "Hyperscale cloud", "confidence": "moderate",
+      "controlHolder": "Jeff Bezos is the largest disclosed individual holder; no majority voting control",
+      "largest13F": "Vanguard Group Inc — 2025-12-31",
+      "quality": {"aiExposure": 70, "marketPower": 70, "growth": 70, "profitability": 75, "capitalEfficiency": 70, "balanceSheet": 90, "valuationSupport": 55, "governance": 70},
+      "risk": {"customerConcentration": 35, "supplierConcentration": 50, "technologySubstitution": 50, "capitalFinancing": 70, "cyclicality": 40, "geopoliticsRegulation": 40, "valuationCompression": 60, "governanceExecution": 35},
+      "evidence": ["amzn-10k", "nasdaq-13f"]
+    },
+    {
+      "ticker": "GOOGL", "name": "Alphabet", "peerGroup": "Hyperscale cloud", "confidence": "moderate",
+      "controlHolder": "Larry Page and Sergey Brin retain voting control through multi-class shares",
+      "largest13F": "Vanguard Group Inc — 2025-12-31",
+      "quality": {"aiExposure": 75, "marketPower": 80, "growth": 65, "profitability": 85, "capitalEfficiency": 80, "balanceSheet": 95, "valuationSupport": 60, "governance": 45},
+      "risk": {"customerConcentration": 25, "supplierConcentration": 45, "technologySubstitution": 60, "capitalFinancing": 55, "cyclicality": 35, "geopoliticsRegulation": 80, "valuationCompression": 60, "governanceExecution": 60},
+      "evidence": ["googl-10k", "nasdaq-13f"]
+    },
+    {
+      "ticker": "ORCL", "name": "Oracle", "peerGroup": "Hyperscale cloud", "confidence": "low",
+      "controlHolder": "Larry Ellison is the largest disclosed individual holder",
+      "largest13F": "Vanguard Group Inc — 2025-12-31",
+      "quality": {"aiExposure": 60, "marketPower": 65, "growth": 70, "profitability": 70, "capitalEfficiency": 55, "balanceSheet": 60, "valuationSupport": 55, "governance": 35},
+      "risk": {"customerConcentration": 45, "supplierConcentration": 70, "technologySubstitution": 60, "capitalFinancing": 75, "cyclicality": 40, "geopoliticsRegulation": 35, "valuationCompression": 70, "governanceExecution": 75},
+      "evidence": ["nasdaq-market", "nasdaq-13f"]
+    },
+    {
+      "ticker": "NET", "name": "Cloudflare", "peerGroup": "Edge cloud", "confidence": "moderate",
+      "controlHolder": "Matthew Prince and Michelle Zatlyn retain outsized voting rights through dual-class shares",
+      "largest13F": "Vanguard Group Inc — 2025-12-31",
+      "quality": {"aiExposure": 65, "marketPower": 55, "growth": 75, "profitability": 35, "capitalEfficiency": 45, "balanceSheet": 70, "valuationSupport": 20, "governance": 35},
+      "risk": {"customerConcentration": 30, "supplierConcentration": 45, "technologySubstitution": 65, "capitalFinancing": 45, "cyclicality": 35, "geopoliticsRegulation": 45, "valuationCompression": 90, "governanceExecution": 65},
+      "evidence": ["net-10k", "nasdaq-13f"]
+    },
+    {
+      "ticker": "CRWV", "name": "CoreWeave", "peerGroup": "Specialized GPU cloud", "confidence": "low",
+      "controlHolder": "Founders retain voting control through the multi-class structure",
+      "largest13F": "Magnetar Financial LLC — 2026-03-31",
+      "quality": {"aiExposure": 95, "marketPower": 35, "growth": 90, "profitability": 20, "capitalEfficiency": 20, "balanceSheet": 25, "valuationSupport": 20, "governance": 25},
+      "risk": {"customerConcentration": 95, "supplierConcentration": 95, "technologySubstitution": 65, "capitalFinancing": 95, "cyclicality": 70, "geopoliticsRegulation": 45, "valuationCompression": 85, "governanceExecution": 80},
+      "evidence": ["nasdaq-market", "nasdaq-13f"]
+    },
+    {
+      "ticker": "NBIS", "name": "Nebius Group", "peerGroup": "Specialized GPU cloud", "confidence": "high",
+      "controlHolder": "Volozh family trust — about 52% voting power and about 11% economic interest at 2026-03-31",
+      "largest13F": "BlackRock Inc — 2026-03-31",
+      "quality": {"aiExposure": 98, "marketPower": 30, "growth": 100, "profitability": 35, "capitalEfficiency": 15, "balanceSheet": 55, "valuationSupport": 10, "governance": 20},
+      "risk": {"customerConcentration": 85, "supplierConcentration": 95, "technologySubstitution": 65, "capitalFinancing": 100, "cyclicality": 70, "geopoliticsRegulation": 65, "valuationCompression": 95, "governanceExecution": 90},
+      "evidence": ["nbis-20f", "nbis-q1", "nasdaq-13f"]
+    },
+    {
+      "ticker": "AKAM", "name": "Akamai", "peerGroup": "Edge cloud", "confidence": "low",
+      "controlHolder": "No controlling shareholder disclosed; widely held",
+      "largest13F": "Vanguard Group Inc — 2025-12-31",
+      "quality": {"aiExposure": 30, "marketPower": 55, "growth": 45, "profitability": 70, "capitalEfficiency": 70, "balanceSheet": 80, "valuationSupport": 70, "governance": 75},
+      "risk": {"customerConcentration": 25, "supplierConcentration": 35, "technologySubstitution": 65, "capitalFinancing": 35, "cyclicality": 35, "geopoliticsRegulation": 35, "valuationCompression": 40, "governanceExecution": 30},
+      "evidence": ["nasdaq-market", "nasdaq-13f"]
+    },
+    {
+      "ticker": "FSLY", "name": "Fastly", "peerGroup": "Edge cloud", "confidence": "low",
+      "controlHolder": "No controlling shareholder disclosed; widely held",
+      "largest13F": "Vanguard Group Inc — 2025-12-31",
+      "quality": {"aiExposure": 45, "marketPower": 30, "growth": 55, "profitability": 10, "capitalEfficiency": 30, "balanceSheet": 45, "valuationSupport": 55, "governance": 50},
+      "risk": {"customerConcentration": 60, "supplierConcentration": 45, "technologySubstitution": 80, "capitalFinancing": 65, "cyclicality": 45, "geopoliticsRegulation": 30, "valuationCompression": 60, "governanceExecution": 60},
+      "evidence": ["nasdaq-market", "nasdaq-13f"]
+    },
+    {
+      "ticker": "NVDA", "name": "NVIDIA", "peerGroup": "AI compute", "confidence": "high",
+      "controlHolder": "No controlling shareholder; Jensen Huang is the largest disclosed individual holder",
+      "largest13F": "Vanguard Group Inc — 2025-12-31",
+      "quality": {"aiExposure": 100, "marketPower": 95, "growth": 100, "profitability": 95, "capitalEfficiency": 95, "balanceSheet": 100, "valuationSupport": 45, "governance": 75},
+      "risk": {"customerConcentration": 80, "supplierConcentration": 90, "technologySubstitution": 65, "capitalFinancing": 20, "cyclicality": 70, "geopoliticsRegulation": 90, "valuationCompression": 70, "governanceExecution": 35},
+      "evidence": ["nvda-10k", "nasdaq-13f"]
+    },
+    {
+      "ticker": "ASML", "name": "ASML", "peerGroup": "Semiconductor equipment", "confidence": "high",
+      "controlHolder": "No controlling shareholder disclosed; widely held",
+      "largest13F": "Fisher Asset Management LLC — 2026-03-31; U.S.-reported positions only",
+      "quality": {"aiExposure": 80, "marketPower": 100, "growth": 70, "profitability": 95, "capitalEfficiency": 85, "balanceSheet": 95, "valuationSupport": 55, "governance": 85},
+      "risk": {"customerConcentration": 75, "supplierConcentration": 100, "technologySubstitution": 30, "capitalFinancing": 25, "cyclicality": 70, "geopoliticsRegulation": 90, "valuationCompression": 75, "governanceExecution": 25},
+      "evidence": ["asml-20f", "nasdaq-13f"]
+    },
+    {
+      "ticker": "ARM", "name": "Arm Holdings", "peerGroup": "Semiconductor IP", "confidence": "high",
+      "controlHolder": "SoftBank Group is the controlling shareholder",
+      "largest13F": "DZ Bank AG — 2026-03-31; U.S.-reported ADS positions only",
+      "quality": {"aiExposure": 70, "marketPower": 95, "growth": 70, "profitability": 65, "capitalEfficiency": 100, "balanceSheet": 90, "valuationSupport": 25, "governance": 20},
+      "risk": {"customerConcentration": 55, "supplierConcentration": 20, "technologySubstitution": 75, "capitalFinancing": 15, "cyclicality": 55, "geopoliticsRegulation": 55, "valuationCompression": 95, "governanceExecution": 90},
+      "evidence": ["arm-20f", "nasdaq-13f"]
+    },
+    {
+      "ticker": "TSM", "name": "TSMC ADR", "peerGroup": "Foundry", "confidence": "high",
+      "controlHolder": "Taiwan National Development Fund is the largest disclosed ordinary-share holder; no majority controller",
+      "largest13F": "FMR LLC — 2026-03-31; U.S.-reported ADR positions only",
+      "quality": {"aiExposure": 95, "marketPower": 95, "growth": 80, "profitability": 95, "capitalEfficiency": 75, "balanceSheet": 90, "valuationSupport": 60, "governance": 75},
+      "risk": {"customerConcentration": 60, "supplierConcentration": 70, "technologySubstitution": 35, "capitalFinancing": 65, "cyclicality": 70, "geopoliticsRegulation": 100, "valuationCompression": 65, "governanceExecution": 30},
+      "evidence": ["tsm-20f", "trendforce", "nasdaq-13f"]
+    },
+    {
+      "ticker": "MRVL", "name": "Marvell Technology", "peerGroup": "Optical / networking silicon", "confidence": "moderate",
+      "controlHolder": "No controlling shareholder disclosed; widely held",
+      "largest13F": "FMR LLC — 2026-03-31",
+      "quality": {"aiExposure": 85, "marketPower": 65, "growth": 85, "profitability": 55, "capitalEfficiency": 60, "balanceSheet": 70, "valuationSupport": 30, "governance": 70},
+      "risk": {"customerConcentration": 80, "supplierConcentration": 80, "technologySubstitution": 65, "capitalFinancing": 40, "cyclicality": 70, "geopoliticsRegulation": 65, "valuationCompression": 85, "governanceExecution": 55},
+      "evidence": ["mrvl-10k", "nasdaq-13f"]
+    },
+    {
+      "ticker": "SNDK", "name": "SanDisk", "peerGroup": "Memory / storage", "confidence": "moderate",
+      "controlHolder": "No controlling shareholder disclosed; widely held",
+      "largest13F": "Vanguard Group Inc — 16,976,485 shares at 2025-12-31",
+      "quality": {"aiExposure": 70, "marketPower": 50, "growth": 75, "profitability": 60, "capitalEfficiency": 50, "balanceSheet": 65, "valuationSupport": 20, "governance": 70},
+      "risk": {"customerConcentration": 55, "supplierConcentration": 70, "technologySubstitution": 65, "capitalFinancing": 65, "cyclicality": 90, "geopoliticsRegulation": 55, "valuationCompression": 95, "governanceExecution": 45},
+      "evidence": ["sndk-10k", "nasdaq-13f"]
+    },
+    {
+      "ticker": "MU", "name": "Micron", "peerGroup": "Memory / storage", "confidence": "moderate",
+      "controlHolder": "No controlling shareholder disclosed; widely held",
+      "largest13F": "Vanguard Group Inc — 2025-12-31",
+      "quality": {"aiExposure": 90, "marketPower": 65, "growth": 100, "profitability": 80, "capitalEfficiency": 55, "balanceSheet": 75, "valuationSupport": 25, "governance": 75},
+      "risk": {"customerConcentration": 55, "supplierConcentration": 45, "technologySubstitution": 60, "capitalFinancing": 80, "cyclicality": 95, "geopoliticsRegulation": 70, "valuationCompression": 95, "governanceExecution": 40},
+      "evidence": ["nasdaq-market", "nasdaq-13f"]
+    },
+    {
+      "ticker": "SANM", "name": "Sanmina", "peerGroup": "Server ODM / EMS", "confidence": "low",
+      "controlHolder": "No controlling shareholder disclosed; widely held",
+      "largest13F": "BlackRock Inc — 2026-03-31",
+      "quality": {"aiExposure": 55, "marketPower": 35, "growth": 55, "profitability": 45, "capitalEfficiency": 65, "balanceSheet": 65, "valuationSupport": 60, "governance": 75},
+      "risk": {"customerConcentration": 75, "supplierConcentration": 55, "technologySubstitution": 60, "capitalFinancing": 55, "cyclicality": 70, "geopoliticsRegulation": 55, "valuationCompression": 45, "governanceExecution": 40},
+      "evidence": ["nasdaq-market", "nasdaq-13f"]
+    }
+  ]
+}

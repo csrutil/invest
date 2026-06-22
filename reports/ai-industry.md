@@ -4,6 +4,8 @@
 **Coverage:** global public companies that sell economically material AI infrastructure or software; strategically important private suppliers are identified separately  
 **Confidence:** high on company products, listings, regulatory-filing figures, and the dated U.S. market snapshot; moderate on third-party market-share estimates; low or unknown where vendors do not disclose AI-specific revenue
 
+Companion analysis: [company radar charts, controlling holders, and 13F institutions](ai-company-radar.md).
+
 ## Executive conclusion
 
 The AI trade is not one industry. It is a dependency chain:
