@@ -1,0 +1,4 @@
+interface:
+  display_name: "Research AI Public Companies"
+  short_description: "Audit global AI stocks, ownership, 13F, and radar data"
+  default_prompt: "Use $research-ai-public-companies to audit the global AI company universe and generate evidence-backed radar coverage."

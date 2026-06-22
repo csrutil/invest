@@ -27,3 +27,7 @@ Maintain this repository as a concise, evidence-based guide for learning about i
 3. Test all calculations independently.
 4. Check links and Markdown formatting.
 5. Review `git diff` and ensure no credentials or personal financial data are present.
+
+## Repository skill
+
+Use `.agents/skills/research-ai-public-companies/SKILL.md` when changing the global AI company universe, ownership/13F data, scoring, radar charts, or coverage audit. Run both bundled scripts before committing radar-data changes.
