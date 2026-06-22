@@ -133,4 +133,4 @@ The strategy should change only when better evidence or a clearly specified inve
 
 ## Research reports
 
-- [U.S.-listed AI companies with monopoly-like products](reports/ai-industry.md)
+- [Global AI industry: value chain, market structure, stock data, and ownership](reports/ai-industry.md)

@@ -1,242 +1,152 @@
-# U.S.-listed AI companies with monopoly-like products
+# Global AI industry: investable value chain, market structure, and ownership
 
 **Research date:** 2026-06-22  
-**Universe:** companies listed on Nasdaq or the NYSE, including foreign issuers and ADRs  
-**Confidence:** high that the four core names satisfy the stated screen; moderate that the screen is exhaustive because private market-share datasets and product-market definitions change
+**Coverage:** global public companies that sell economically material AI infrastructure or software; strategically important private suppliers are identified separately  
+**Confidence:** high on company products, listings, regulatory-filing figures, and the dated U.S. market snapshot; moderate on third-party market-share estimates; low or unknown where vendors do not disclose AI-specific revenue
+
+## Executive conclusion
+
+The AI trade is not one industry. It is a dependency chain:
+
+`materials → chip IP/EDA → logic and memory → wafer fabrication → packaging/test → servers → copper/optics/fiber → power/cooling → data centers → cloud/edge → models/data/software`
 
-## Conclusion
+The previous version of this report was wrong in scope. It screened only 35 U.S.-listed companies for a ≥70% market-share threshold. That excluded indispensable oligopolies and every important non-U.S. supplier. This version uses monopoly power as a **rating**, not an admission test.
+
+The highest-confidence bottlenecks are ASML in EUV, TSMC in leading-edge foundry and advanced packaging, NVIDIA in merchant AI accelerators plus CUDA, Arm in mobile CPU architecture, the three-company HBM/DRAM oligopoly, Synopsys/Cadence/Siemens EDA, and a small group of high-speed optical-component vendors. Cloud is concentrated but not monopolized. Cooling is fragmented and product-specific.
 
-Only four companies survived a strict screen:
+AWS is **not a listed company**. It is a segment of Amazon.com, Inc. (NASDAQ: AMZN). Microsoft trades as NASDAQ: MSFT and owns Azure. Cloudflare trades as NYSE: NET; it is an edge network and developer platform, not a hyperscale cloud equivalent to AWS or Azure.
 
-| Company | U.S. listing | Monopoly-like product market | Concentration evidence | AI connection | Confidence |
-| --- | --- | --- | --- | --- | --- |
-| ASML Holding | Nasdaq: ASML | EUV lithography systems | ASML states it is the world's only manufacturer: effectively 100% | EUV is required for economical production of many leading-edge logic and memory chips used in AI systems | High |
-| Arm Holdings | Nasdaq: ARM | Mobile application-processor CPU architecture | Arm reports greater than 99% share for many years | Arm CPUs run edge-AI workloads and also serve cloud, automotive, robotics, and IoT systems | High |
-| NVIDIA | Nasdaq: NVDA | Discrete add-in-board GPUs; merchant data-center AI accelerators | Jon Peddie Research's Q4-2025 estimate gives NVIDIA 94% of discrete add-in-board GPU shipments; the UK CMA identifies NVIDIA as the leading AI-accelerator supplier | Direct: training and inference compute, networking, CUDA, and AI software | Moderate-high |
-| Taiwan Semiconductor Manufacturing Company | NYSE: TSM | Leading-edge contract chip fabrication | TrendForce measured 70.2% of global foundry revenue in Q2 2025; full-year 2025 was 69.9%, a rounding-level miss against the screen | Direct: manufactures leading GPUs, custom accelerators, CPUs, and advanced packaging | Moderate-high |
+## 1. Cloud, edge, and AI distribution — the missing companies
 
-This is a market-structure result, not a buy list. A monopoly bought at an excessive price can be a bad investment. Market share also attracts customer substitution, regulation, export controls, and aggressive competitors.
+| Company | Listing | AI products and economic role | Market structure | 2026-06-22 previous close / market cap | Top reported institutional positions* |
+| --- | --- | --- | --- | ---: | --- |
+| Microsoft | NASDAQ: MSFT | Azure GPU/CPU cloud, Azure AI Foundry, model APIs, Microsoft 365 Copilot, GitHub Copilot; custom Maia/Cobalt silicon | Azure is one of three global hyperscale leaders; strong enterprise distribution, but no monopoly | $379.40 / $2.824T | Vanguard (2025-12-31); BlackRock (2026-03-31); Vanguard Capital Management (2026-03-31) |
+| Amazon | NASDAQ: AMZN | AWS EC2 GPU instances, Trainium, Inferentia, Bedrock, SageMaker, data/storage; Anthropic exposure | AWS is a hyperscale leader; custom chips reduce NVIDIA dependence; still faces Azure, Google, Oracle and sovereign clouds | $244.39 / $2.606T | Vanguard (2025-12-31); BlackRock (2026-03-31); Vanguard Capital Management (2026-03-31) |
+| Alphabet | NASDAQ: GOOGL | Google Cloud, TPU, Vertex AI, Gemini, search/ads distribution | Top-three cloud provider; proprietary TPU and model stack; search distribution is more concentrated than cloud | $368.03 / $4.390T | Vanguard (2025-12-31); BlackRock (2026-03-31); Vanguard Capital Management (2026-03-31) |
+| Oracle | NYSE: ORCL | OCI GPU superclusters, database, cloud applications | Smaller cloud share, but material AI-cluster deployments and database lock-in | $184.29 / $523.8B | Holder snapshot not included: Nasdaq response was incomplete |
+| Cloudflare | NYSE: NET | Workers AI runs models on serverless GPUs across its network; AI Gateway provides routing, security, caching and observability; Vectorize stores/queries embeddings; CDN, security and developer runtime provide distribution | Differentiated global edge footprint, but competes with Akamai, Fastly and hyperscalers; **not a monopoly** | $224.06 / $79.53B | Vanguard (2025-12-31); Capital World Investors (2026-03-31); BlackRock (2026-03-31) |
+| CoreWeave | NASDAQ: CRWV | GPU-specialized cloud and AI clusters | High direct AI exposure and concentration risk; competes with hyperscalers and other GPU clouds | $117.95 / $64.16B | Magnetar (2026-03-31); Vanguard (2025-12-31); Goldman Sachs (2026-03-31) |
+| Akamai | NASDAQ: AKAM | CDN, security, edge compute and distributed cloud | Mature edge/CDN competitor; no AI monopoly | $124.91 / $17.90B | Vanguard (2025-12-31); BlackRock (2026-03-31); Vanguard Capital Management (2026-03-31) |
+| Fastly | NYSE: FSLY | Edge cloud, CDN, security and compute | Smaller challenger; materially weaker scale than Cloudflare/Akamai | $17.90 / $2.792B | Vanguard (2025-12-31); BlackRock (2026-03-31); Vanguard Portfolio Management (2026-03-31) |
+
+\* These are the three largest rows returned by Nasdaq's institutional-holdings aggregation, generally Form 13F positions. They are not necessarily the legal beneficial owners or voting controllers. Reporting dates differ, so the rows are evidence of disclosed institutional positions, not a perfectly synchronized ownership ranking.[^nasdaq]
+
+### Filing-verified facts
 
-## Stock and market-cap snapshot
+- Microsoft's fiscal-2025 filing says Azure AI offers supercomputing, models, cloud services and custom silicon, and identifies Azure AI Foundry as its unified application/agent development platform. Microsoft reports Azure inside Intelligent Cloud rather than publishing standalone Azure financial statements.[^msft-10k]
+- Amazon's 2025 Form 10-K reports that AWS sales grew 20% year over year. AWS cannot be purchased separately; AMZN owners also own retail, advertising, logistics and other Amazon businesses.[^amzn-10k]
+- Cloudflare's 2025 Form 10-K explicitly describes Workers AI, AI Gateway and Vectorize. It reported 2025 revenue of **$2.1679B**, up **$498.3M or 30%**, with paying customers up 40% and fourth-quarter dollar-based net retention of 120%.[^net-10k]
+
+## 2. Global investable value-chain map
+
+This is an economically bounded universe: companies must sell a product used to design, manufacture, connect, power, cool, host, distribute or monetize AI. It deliberately excludes companies that merely add an “AI” feature to an otherwise unrelated product.
+
+| Layer | Public companies — listing | Concrete products | Structure / bottleneck judgment |
+| --- | --- | --- | --- |
+| Semiconductor materials and gases | Shin-Etsu Chemical (TSE: 4063), SUMCO (TSE: 3436), GlobalWafers (TWSE: 6488), Siltronic (Xetra: WAF), Linde (NASDAQ: LIN), Air Liquide (EPA: AI), Air Products (NYSE: APD), Entegris (NASDAQ: ENTG) | silicon wafers, specialty gases, filtration and contamination control | Concentrated qualification-driven supply; no single universal monopoly |
+| Substrates and packaging materials | Ibiden (TSE: 4062), Shinko Electric (TSE: 6967), Unimicron (TWSE: 3037), Nan Ya PCB (TWSE: 8046), Ajinomoto (TSE: 2802) | ABF build-up film, FC-BGA substrates, interposers and package materials | Capacity/qualification bottlenecks; Ajinomoto ABF is strategically important but “monopoly” requires a defined denominator |
+| CPU/GPU/ASIC and IP | NVIDIA (NASDAQ: NVDA), AMD (NASDAQ: AMD), Broadcom (NASDAQ: AVGO), Marvell (NASDAQ: MRVL), Intel (NASDAQ: INTC), Qualcomm (NASDAQ: QCOM), Arm (NASDAQ: ARM), MediaTek (TWSE: 2454), Alchip (TWSE: 3661), GUC (TWSE: 3443) | accelerators, CPUs, NPUs, custom AI ASICs, SerDes and processor IP | NVIDIA/CUDA is the merchant-AI leader; Arm >99% mobile application-processor architecture share; custom ASICs are the main substitution vector |
+| EDA and chip design software | Synopsys (NASDAQ: SNPS), Cadence (NASDAQ: CDNS), Siemens (Xetra: SIE) | logic design, verification, physical implementation, simulation and IP | Three-vendor oligopoly with extreme switching/qualification costs |
+| DRAM, HBM and NAND/storage | SK hynix (KRX: 000660), Samsung Electronics (KRX: 005930), Micron (NASDAQ: MU), SanDisk (NASDAQ: SNDK), Kioxia (TSE: 285A), Western Digital (NASDAQ: WDC), Seagate (NASDAQ: STX) | HBM/DRAM, NAND, enterprise/client SSDs and HDDs | HBM/DRAM is a three-company oligopoly. **SanDisk is NAND/flash/SSD exposure, not HBM.** |
+| Foundry | TSMC (TWSE: 2330; NYSE: TSM), Samsung Electronics, Intel, UMC (TWSE: 2303; NYSE: UMC), GlobalFoundries (NASDAQ: GFS), SMIC (HKEX: 0981; SSE: 688981) | wafer fabrication and process technology | TSMC led global foundry revenue at 70.2% in Q2 2025; leading-node capacity is still more concentrated than total foundry revenue[^trendforce] |
+| Wafer-fab equipment | ASML (NASDAQ/Euronext: ASML), Applied Materials (NASDAQ: AMAT), Lam Research (NASDAQ: LRCX), KLA (NASDAQ: KLAC), Tokyo Electron (TSE: 8035), ASM International (AMS: ASM), BESI (AMS: BESI), Disco (TSE: 6146), Advantest (TSE: 6857), Teradyne (NASDAQ: TER) | lithography, deposition, etch, inspection, metrology, bonding, dicing and test | ASML is the only commercial EUV-system supplier; several process steps are oligopolies[^asml-20f] |
+| Advanced packaging and test | TSMC, ASE Technology (TWSE: 3711; NYSE: ASX), Amkor (NASDAQ: AMKR), JCET (SSE: 600584), Tongfu Microelectronics (SZSE: 002156), Powertech (TWSE: 6239) | CoWoS/SoIC, 2.5D/3D packaging, bumping, assembly and test | TSMC CoWoS is a critical AI bottleneck, but packaging has alternatives and customer qualification cycles |
+| Server ODM/EMS | Hon Hai/Foxconn (TWSE: 2317), Quanta (TWSE: 2382), Wistron (TWSE: 3231), Wiwynn (TWSE: 6669), Inventec (TWSE: 2356), Celestica (NYSE/TSX: CLS), Sanmina (NASDAQ: SANM), Fabrinet (NYSE: FN), Super Micro (NASDAQ: SMCI), Dell (NYSE: DELL), HPE (NYSE: HPE) | GPU baseboards, racks, servers, switches, integration and manufacturing | Taiwan-centered scale oligopoly; margins and customer concentration matter more than superficial AI labels |
+| Switching and copper interconnect | NVIDIA, Broadcom, Marvell, Credo (NASDAQ: CRDO), Arista (NYSE: ANET), Cisco (NASDAQ: CSCO), Amphenol (NYSE: APH), TE Connectivity (NYSE: TEL) | InfiniBand/Ethernet switches, switch ASICs, NICs/DPUs, SerDes, active electrical cables and connectors | Broadcom/NVIDIA strong at silicon/fabric layers; Arista strong in cloud Ethernet; not one unified market |
+| Optical modules, lasers and fiber | Coherent (NYSE: COHR), Lumentum (NASDAQ: LITE), Fabrinet, Applied Optoelectronics (NASDAQ: AAOI), Ciena (NYSE: CIEN), Corning (NYSE: GLW), Zhongji Innolight (SZSE: 300308), Eoptolink (SZSE: 300502), Accelink (SZSE: 002281), TFC Optical (SZSE: 300394), Sumitomo Electric (TSE: 5802), Furukawa Electric (TSE: 5801) | 400G/800G/1.6T transceivers, lasers, DSPs, fiber, cable, connectors and contract manufacturing | LightCounting estimated 2025 optical-transceiver sales at **$23.8B**; supplier shares differ sharply by component and speed generation[^lightcounting] |
+| Grid, generation and power train | Eaton (NYSE: ETN), Schneider Electric (EPA: SU), ABB (SIX/NYSE: ABB), Vertiv (NYSE: VRT), Delta Electronics (TWSE: 2308), nVent (NYSE: NVT), Siemens Energy (Xetra: ENR), GE Vernova (NYSE: GEV), Caterpillar (NYSE: CAT), Cummins (NYSE: CMI), Bloom Energy (NYSE: BE) | switchgear, transformers, busways, UPS, rectifiers, backup generation and fuel cells | Grid interconnection and transformers can be project bottlenecks; the vendor market is competitive and regional |
+| Cooling and thermal management | Vertiv, Schneider Electric, Johnson Controls (NYSE: JCI), Trane Technologies (NYSE: TT), Carrier (NYSE: CARR), Modine (NYSE: MOD), Munters (STO: MTRS), Daikin (TSE: 6367), Delta Electronics, Nidec (TSE: 6594), Asetek (CPH: ASTK) | chillers, CRAC/CRAH, rear-door heat exchangers, CDUs, cold plates, manifolds, pumps, fans and liquid-cooling controls | Fragmented by subsystem. Vertiv/Schneider have integrated data-center portfolios; no defensible claim that either monopolizes “AI cooling” |
+| Colocation and data-center landlords | Equinix (NASDAQ: EQIX), Digital Realty (NYSE: DLR), GDS (NASDAQ/HKEX: GDS), VNET (NASDAQ: VNET), NEXTDC (ASX: NXT), Keppel DC REIT (SGX: AJBU) | powered shells, interconnection, colocation and hyperscale campuses | Local power, land and network access create regional scarcity, not a global monopoly |
+| Cloud, edge and models | Microsoft, Amazon, Alphabet, Meta (NASDAQ: META), Oracle, IBM (NYSE: IBM), Alibaba (NYSE: BABA; HKEX: 9988), Tencent (HKEX: 0700), Baidu (NASDAQ: BIDU; HKEX: 9888), Cloudflare, Akamai, Fastly, CoreWeave | compute, storage, managed databases, model APIs, proprietary accelerators, edge inference and distribution | Hyperscale cloud is concentrated among AWS/Azure/Google; China is a separate competitive/regulatory market |
+| Data and enterprise software | Palantir (NASDAQ: PLTR), Snowflake (NYSE: SNOW), Datadog (NASDAQ: DDOG), ServiceNow (NYSE: NOW), Salesforce (NYSE: CRM), MongoDB (NASDAQ: MDB), Adobe (NASDAQ: ADBE), C3.ai (NYSE: AI) | data platforms, observability, workflow, agents and AI applications | Valuable installed bases, but disclosed “AI revenue” is often incomplete; do not value ordinary revenue as pure AI revenue |
+
+### Strategically important private companies
+
+OpenAI, Anthropic, xAI, Mistral, Huawei/HiSilicon, Cerebras, Groq, CoolIT Systems, Boyd, LiquidStack, Submer, Source Photonics and Hisense Broadband matter to competitive outcomes but are not directly purchasable public equities. Fund holdings, SPVs or a public partner's minority stake do not create one-for-one economic exposure.
+
+## 3. Required memory/storage correction: SanDisk and Micron
+
+| Company | Product exposure | Dated stock snapshot | Ownership evidence | Investment reading |
+| --- | --- | ---: | --- | --- |
+| SanDisk Corp | NAND flash, enterprise/client SSD and flash products; **not HBM** | NASDAQ: SNDK; previous close $2,184.75; market cap $334.39B; 52-week $40.10–$2,167.33 | Vanguard 16,976,485 shares (2025-12-31); FMR 13,389,985 and BlackRock 10,403,455 (both 2026-03-31), per Nasdaq 13F aggregation | Direct AI storage exposure through high-performance enterprise flash, but NAND pricing is cyclical and structurally different from HBM scarcity |
+| Micron | HBM, DRAM and NAND | NASDAQ: MU; previous close $1,133.99; market cap $1.319T; 52-week $103.38–$1,110.40 | Vanguard, BlackRock and Vanguard Capital Management were the three largest returned institutional rows | Direct HBM beneficiary; competes with SK hynix and Samsung rather than owning a monopoly |
+| Sanmina | EMS, PCB assemblies, backplanes and systems manufacturing | NASDAQ: SANM; previous close $241.49; market cap $12.97B; 52-week $88.52–$288.68 | Separate from SNDK; holder data must be read from SANM filings/Nasdaq | Include as manufacturing exposure. “SNAK” is not a valid SEC-listed ticker; the likely intended manufacturing ticker was SANM |
+
+SanDisk's latest annual filing is its fiscal-2025 Form 10-K, filed 2025-08-21.[^sndk-10k] Its huge 52-week range and previous close above the reported range indicate that price history and corporate-action adjustments must be checked before calculating returns or valuation multiples. The table preserves the source values instead of silently “fixing” them.
+
+## 4. U.S.-listed market-cap cross-check
+
+The following Nasdaq snapshot is dated **2026-06-22**. It is a price/size screen, not a valuation conclusion.
+
+| Layer | Ticker | Previous close | Market cap |
+| --- | --- | ---: | ---: |
+| Compute | NVDA | $210.69 | $5.067T |
+| Compute | AMD | $537.37 | $877.33B |
+| Custom silicon/networking | AVGO | $410.70 | $1.925T |
+| Custom silicon/networking | MRVL | $310.58 | $274.38B |
+| Memory | MU | $1,133.99 | $1.319T |
+| Storage | SNDK | $2,184.75 | $334.39B |
+| Equipment | ASML | $1,929.68 | $740.18B |
+| Equipment | AMAT | $617.11 | $492.03B |
+| Equipment | LRCX | $389.04 | $484.10B |
+| Equipment | KLAC | $259.56 | $336.08B |
+| Networking | ANET | $169.67 | $214.11B |
+| Optics/fiber | COHR | $389.57 | $77.12B |
+| Optics/fiber | LITE | $850.00 | $65.82B |
+| Fiber | GLW | $194.92 | $171.61B |
+| Power | ETN | $421.77 | $164.49B |
+| Cooling | MOD | $297.37 | $15.71B |
+| Server | DELL | $409.50 | $266.83B |
+| Colocation | EQIX | $1,092.19 | $105.65B |
+| Colocation | DLR | $188.15 | $66.06B |
+
+Market capitalization is not enterprise value, does not normalize ADR ratios or cross-listed shares, and can diverge between vendors. Use the dated snapshot only for order-of-magnitude comparison.[^nasdaq]
+
+## 5. Ownership: what the data does and does not establish
 
-Nasdaq's quote service was queried at **2026-06-22 04:47 ET**, during U.S. premarket trading. Last prices are real-time premarket indications; market capitalizations and 52-week ranges in the same service were calculated from the previous close. Values can therefore differ from the next regular-session close.[^nasdaq-quotes]
+Institutional “top holder” tables are frequently abused. Form 13F reports long U.S. positions with a delay; they omit many non-U.S. ordinary shares, shorts, derivatives and some beneficial ownership arrangements. Index managers can be the largest economic holders without controlling the company.
 
-| Company | Ticker / exchange | Last price | Previous close | Market cap | 52-week range | Indicated annual dividend / yield |
-| --- | --- | ---: | ---: | ---: | ---: | ---: |
-| NVIDIA | NVDA / Nasdaq Global Select | $209.50 | $210.69 | $5.072 trillion | $142.03–$236.54 | $1.00 / 0.49% |
-| ASML Holding | ASML / Nasdaq Global Select | $1,923.50 | $1,929.68 | $741.49 billion | $683.48–$1,938.49 | $12.6738 / 0.68% |
-| Arm Holdings | ARM / Nasdaq Global Select | $430.6503 | $439.46 | $459.35 billion | $100.02–$444.80 | None reported |
-| TSMC ADR | TSM / NYSE | $467.4605 | $462.12 | $2.424 trillion | $206.2015–$450.1636 | Not returned by the source |
+For control analysis, use the latest proxy/20-F beneficial-ownership table:
 
-The TSM premarket price exceeded the prior 52-week high because the range had not yet incorporated that premarket indication. Market cap is rounded from the Nasdaq values: NVDA $5,071,594 million; ASML $741,485.8 million; ARM $459,352.3 million; and TSM $2,424,192.1 million.[^nasdaq-quotes]
+- Arm is controlled by SoftBank; Nasdaq's ADR institutional table therefore does not identify the controlling economic owner.
+- Alphabet and Meta use dual-class shares; founder voting power matters more than a simple count of institutionally held Class A shares.
+- Amazon founder Jeff Bezos's beneficial ownership must be read from Amazon's proxy, separately from 13F rows.
+- Foreign issuers such as TSMC, Samsung, SK hynix, Hon Hai and Chinese issuers require local annual reports and exchange disclosures. U.S. ADR holder tables cover the depositary security, not the entire global ordinary-share register.
 
-### Listing and security structure
+The correct research record for every position is therefore: security type, exchange, share class/ADR ratio, controlling holder, top reported institutions, reporting dates, free float and dilution. A single “largest holder” field is not enough.
 
-- **NVDA** is NVIDIA common stock. It is a U.S. domestic issuer reporting on Form 10-K.
-- **ASML** is the Nasdaq-listed New York registry share of a Dutch issuer. The same economic company also trades in Amsterdam; currency, venue, and withholding-tax treatment matter.
-- **ARM** is an American depositary share of a UK issuer. SoftBank remains a controlling shareholder, so free float and governance differ from a widely held U.S. company.[^arm-20f]
-- **TSM** is an ADR, not the Taiwan ordinary share. TSMC's filing states that each ADS represents **five common shares**.[^tsm-20f]
+## 6. Market-size and monopoly scorecard
 
-### Fiscal fundamentals behind the market caps
+| Market | Best verified datapoint used here | Structure | Confidence |
+| --- | --- | --- | --- |
+| EUV lithography | ASML states it is the world's only EUV-system manufacturer | Monopoly | High |
+| Mobile application-processor architecture | Arm reports >99% share | Installed-architecture monopoly | High |
+| Global foundry revenue | TSMC 70.2% in Q2 2025; 69.9% for full-year 2025 per TrendForce | Dominant supplier plus competitors | Moderate-high |
+| Discrete add-in-board GPUs | NVIDIA 94% of Q4-2025 shipments per Jon Peddie Research | Dominant; denominator is not “all AI accelerators” | Moderate-high |
+| Optical transceivers | $23.8B sales in 2025 per LightCounting | Fragmented by module speed/component | Moderate |
+| HBM | Samsung, SK hynix and Micron are the qualified high-volume supplier set | Three-company oligopoly; shares change by generation/customer | High on structure; moderate on shares |
+| Hyperscale cloud | AWS, Azure and Google are the global leaders | Three-leader concentration, no monopoly | High on structure; moderate on point shares |
+| Data-center liquid cooling | No public source reviewed supports a single global monopoly | Multi-vendor, fast-growing and product-specific | High |
 
-| Company | Latest fiscal period | Revenue | Net income | Directly relevant concentration metric |
-| --- | --- | ---: | ---: | --- |
-| NVIDIA | FY ended 2026-01-25 | $215.938B | $120.067B | Compute & Networking was 89.6% of revenue |
-| ASML | Year ended 2025-12-31 | €32.667B | €9.609B | Four customers were 61.2% of sales |
-| Arm | FY ended 2026-03-31 | $4.920B | $904M | Mobile application processors were 43% of royalty revenue; share compensation was $1.056B |
-| TSMC | Year ended 2025-12-31 | NT$3.809T / $121.423B | NT$1.698T / $54.116B | Nodes at 7 nm and below were 74% of wafer revenue |
+## 7. Investment framework
 
-The table deliberately does not present a P/E ratio for Arm: a market-data multiple without consistent treatment of share compensation, controlling-shareholder structure, and depositary shares would create false comparability. For all four names, valuation must be recomputed from the same timestamp, share definition, currency, and earnings period before making an investment decision.
+Do not buy “AI exposure.” Buy a cash-flow claim after testing five variables:
 
-## Definition and method
+1. **Revenue purity:** quantify how much revenue actually comes from AI demand; unknown is not zero, but it is not evidence.
+2. **Market power:** define the product and denominator before quoting share. NVIDIA's AIB share is not its share of all AI compute.
+3. **Capacity and customer concentration:** bottlenecks can produce pricing power, but one or two hyperscale buyers can capture the economics.
+4. **Capital intensity and working capital:** foundries, memory, data centers and power equipment require very different reinvestment rates from IP/software businesses.
+5. **Valuation and expectations:** compare enterprise value with normalized free cash flow under base, bear and supply-glut scenarios. Market cap alone does not answer expected return.
 
-### What counts as “AI-related”
-
-A company must supply one of these economically necessary layers:
-
-1. AI compute or processor intellectual property;
-2. leading-edge semiconductor fabrication or manufacturing equipment;
-3. memory, networking, servers, power, or cooling used by AI infrastructure;
-4. cloud infrastructure, foundation models, or AI development platforms; or
-5. enterprise software whose disclosed product and revenue strategy materially depends on AI.
-
-Merely mentioning AI in an earnings call does not qualify.
-
-### What counts as “almost monopoly”
-
-At least one current product market must satisfy one of these tests:
-
-- at least **70% market share** under a stated denominator;
-- the company is the **only commercial supplier** of a necessary product; or
-- an installed architecture exceeds **90%** and has material switching costs.
-
-The market must be economically meaningful and not engineered into a tiny category merely to manufacture a high share.
-
-### Screened universe
-
-The screen covered 35 U.S.-listed companies across the AI value chain:
-
-- **Compute, processors, memory, and connectivity:** NVIDIA, AMD, Intel, Qualcomm, Arm, Broadcom, Marvell, Micron.
-- **Foundry and semiconductor equipment:** TSMC, ASML, Applied Materials, Lam Research, KLA.
-- **Electronic design automation:** Synopsys, Cadence.
-- **Networks, power, cooling, and servers:** Arista Networks, Vertiv, Dell, Hewlett Packard Enterprise, Super Micro Computer, CoreWeave.
-- **Cloud, models, and platforms:** Microsoft, Alphabet, Amazon, Meta Platforms, Oracle, IBM.
-- **Data and applications:** Palantir, Salesforce, Adobe, ServiceNow, Snowflake, Datadog, MongoDB, C3.ai.
-
-This is a broad investable screen, not literally every public company that uses AI. No finite list can include every company that uses a general-purpose technology. The reproducible claim is narrower: the major U.S.-listed AI value-chain companies were screened against the ≥70% rule.
-
-## 1. ASML Holding — the clearest monopoly
-
-### Verified facts
-
-- ASML's 2025 Form 20-F states: “ASML is currently the world's only manufacturer of EUV lithography systems.” That is a company-disclosed 100% supplier position, not an analyst inference.[^asml-20f]
-- ASML competes with Canon and Nikon in **DUV**, so the monopoly claim must not be extended to all lithography equipment.[^asml-20f]
-- ASML reported 2025 net sales of **€32.667 billion**, net income of **€9.609 billion**, and R&D spending of **€4.7 billion**.[^asml-20f]
-- Its filing says 2025 sales growth was supported by leading-edge foundry investment for AI demand. It also identifies AI demand as a driver of logic and memory capacity.[^asml-20f]
-- The same filing reports that the largest customer represented **23.9%** of 2025 sales and the two largest represented **38.0%**. Four customers represented **61.2%** of sales.[^asml-20f]
-
-### Why the position exists
-
-The barrier is a system of barriers: EUV light generation, Zeiss optics, precision mechatronics, computational lithography, process control, thousands of suppliers, customer qualification, and decades of accumulated production learning. A competitor must reproduce the complete system at commercially acceptable yield and uptime; matching one component is insufficient.
-
-### What can break the thesis
-
-- Export controls can remove addressable customers. China represented **29.1%** of ASML's 2025 sales.[^asml-20f]
-- ASML relies on Carl Zeiss SMT as its sole supplier of critical EUV optical components.[^asml-20f]
-- Customers can delay leading-edge fab spending or extend existing tools.
-- Alternative patterning and manufacturing architectures could reduce lithography intensity.
-- Customer concentration gives a small group of chipmakers substantial bargaining power.
-
-### Judgment
-
-**Monopoly evidence: high. AI exposure: high but indirect.** ASML is the cleanest market-structure result in the screen. Its weakness is not competition in EUV today; it is geopolitical restriction, cyclicality, customer concentration, and supply-chain concentration.
-
-## 2. Arm Holdings — a 99% architecture position in smartphones
-
-### Verified facts
-
-- Arm's fiscal-2026 Form 20-F reports **greater than 99% market share** in mobile application processors for many years because all key mobile operating systems depend on Arm processors.[^arm-20f]
-- That market produced approximately **43% of Arm's royalty revenue** in fiscal 2026.[^arm-20f]
-- Arm reported fiscal-2026 revenue of **$4.920 billion**, up **23%** from $4.007 billion in fiscal 2025. Royalty revenue was $2.613 billion and license-and-other revenue was $2.307 billion.[^arm-20f]
-- Arm says its CPUs already run AI workloads in billions of devices and organizes its strategy into Edge AI, Physical AI, and Cloud AI.[^arm-20f]
-
-### Why the position exists
-
-Arm is an architecture and ecosystem monopoly, not a chip-manufacturing monopoly. Mobile operating systems, developer tools, software, chip designs, and engineering teams have accumulated around its instruction set. Licensees can differentiate their chips while retaining software compatibility. That combination creates network effects without requiring Arm to manufacture every chip.
-
-### What can break the thesis
-
-- Smartphone unit growth is mature, and 43% of royalties still depend on that market.
-- RISC-V is an open architecture with no Arm royalty and can attack from embedded devices upward.
-- x86 remains strong in PCs and servers.
-- Large customers can negotiate hard, design more components internally, or support alternative architectures.
-- A greater share of AI computation could move from CPUs to GPUs, NPUs, and custom accelerators.
-
-### Judgment
-
-**Monopoly evidence: high. AI exposure: moderate-high.** The >99% figure is directly disclosed and precisely defined. It does not mean Arm has 99% of data-center CPUs, AI accelerators, all processors, or semiconductor revenue.
-
-## 3. NVIDIA — dominant AI compute, but the denominator matters
-
-### Verified facts
-
-- NVIDIA's fiscal-2026 Form 10-K reports total revenue of **$215.938 billion** and Compute & Networking revenue of **$193.479 billion**. Compute & Networking therefore represented **89.6%** of revenue: $193.479 billion ÷ $215.938 billion.[^nvda-10k]
-- The filing says accelerated computing and AI drove the segment's growth. It reports more than **7.5 million developers** using CUDA and NVIDIA's other software tools.[^nvda-10k]
-- Two direct customers represented **22%** and **14%** of total fiscal-2026 revenue, primarily in Compute & Networking.[^nvda-10k]
-- NVIDIA does **not** publish a market-share denominator in its 10-K. Jon Peddie Research's add-in-board report measured NVIDIA at **94% of discrete GPU shipments in Q4 2025**. That denominator includes PC/workstation add-in boards and must not be relabeled as AI-accelerator share.[^jpr-aib] The UK CMA separately identifies NVIDIA as the leading supplier of AI-accelerator chips but does not publish a percentage in its April 2024 technical update.[^cma-models]
-
-### Why the position exists
-
-The moat is not just GPU silicon. It combines CUDA, optimized libraries, compilers, developer familiarity, networking, complete systems, cloud availability, and rapid architecture releases. The 7.5-million-developer disclosure is evidence of ecosystem scale, though it is not evidence that all those developers are active or exclusive.
-
-### What can break the thesis
-
-- Alphabet, Amazon, Microsoft, Meta, OpenAI partners, and other hyperscalers are developing or buying custom accelerators.
-- AMD and other vendors can improve hardware and software compatibility.
-- Export controls already restrict access to China; NVIDIA's filing says it is effectively foreclosed from that data-center compute market.[^nvda-10k]
-- Two direct customers generated 36% of revenue, creating concentration and bargaining risk.[^nvda-10k]
-- AI training may become less compute-intensive, inference may shift to specialized ASICs, or customers may optimize utilization.
-- CUDA switching costs are real but not permanent; open software layers can reduce them.
-
-### Judgment
-
-**Monopoly evidence: moderate-high. AI exposure: direct and very high.** NVIDIA passes through its measured 94% discrete-GPU product share plus its separately verified leadership in AI accelerators. “90% of AI chips” remains an imprecise slogan. NVIDIA does not own 90% of all inference chips, CPUs, edge AI, or custom silicon.
-
-## 4. TSMC — dominant leading-edge manufacturing
-
-### Verified facts
-
-- TSMC's 2025 Form 20-F confirms that its ADSs trade on the NYSE and that HPC—including AI applications—is a principal platform.[^tsm-20f]
-- It reported 2025 revenue of **NT$3.809 trillion** (**$121.423 billion**) and net income attributable to shareholders of **NT$1.698 trillion** (**$54.116 billion**).[^tsm-20f]
-- Advanced processes at 7 nm and below generated **74% of 2025 wafer revenue**, up from 69% in 2024. The 3 nm, 5 nm, and 7 nm shares were 24%, 36%, and 14%.[^tsm-20f]
-- TSMC's filing does not claim a precise market share. TrendForce measured **70.2%** of global foundry revenue in Q2 2025. Its full-year 2025 estimate was **69.9%**—economically indistinguishable from 70% after rounding, but technically 0.1 percentage point below the screen.[^trendforce-foundry]
-- TSMC itself warns that concentration in semiconductors has increased antitrust scrutiny.[^tsm-20f]
-
-### Why the position exists
-
-Leading-edge foundry production requires enormous capital, process recipes, yield learning, equipment integration, trusted handling of customer designs, advanced packaging, and a dense design ecosystem. Scale produces more learning and cash for the next node; the next node then attracts more leading designs.
-
-### What can break the thesis
-
-- Manufacturing is geographically concentrated in Taiwan, creating an unusually severe geopolitical tail risk.
-- Intel and Samsung can close process, yield, capacity, or packaging gaps.
-- Large customers can dual-source or redesign chips when technically and economically possible.
-- Semiconductor demand and fab utilization are cyclical.
-- Energy, water, earthquake, equipment, and export-control constraints can interrupt output.
-- A dominant share does not remove customer concentration or the negotiating power of NVIDIA, Apple, AMD, Broadcom, and hyperscalers.
-
-### Judgment
-
-**Monopoly evidence: moderate-high. AI exposure: direct and very high.** TSMC is monopoly-like at the leading edge, but calling it a literal monopoly is wrong: Samsung and Intel manufacture advanced logic, and other foundries compete at mature nodes.
-
-## Companies rejected by the strict test
-
-| Group | Companies | Why they fail this report's monopoly test |
-| --- | --- | --- |
-| Alternative compute | AMD, Intel, Qualcomm, Broadcom, Marvell | Important products and, in some niches, strong positions; no verified ≥70% share in a broad, current AI product market under this screen. |
-| Memory | Micron | AI demand benefits HBM and DRAM, but memory is an oligopoly involving Samsung and SK hynix, not a Micron near-monopoly. |
-| Wafer-fab equipment | Applied Materials, Lam Research, KLA | Strong positions in specific process steps, but the available broad-market evidence does not establish a company-wide or necessary AI-product share ≥70%. |
-| EDA | Synopsys, Cadence | Together they form a powerful duopoly with Siemens EDA also present; neither company alone passed the threshold across EDA. |
-| Networking and infrastructure | Arista, Vertiv, Dell, HPE, Super Micro, CoreWeave | High AI exposure or growth does not equal monopoly. Customers retain credible alternatives and can multi-source. |
-| Cloud | Amazon, Microsoft, Alphabet, Oracle, IBM | Cloud infrastructure is concentrated but competitive. No provider has anything close to 70% global cloud-infrastructure share. |
-| Foundation models | Microsoft/OpenAI exposure, Alphabet, Amazon/Anthropic exposure, Meta | Model leadership changes rapidly; open-weight and closed competitors prevent a stable ≥70% product share. |
-| Enterprise applications and data | Palantir, Salesforce, Adobe, ServiceNow, Snowflake, Datadog, MongoDB, C3.ai | AI features may be material, but none has verified ≥70% control of a broad AI-software market. |
-
-Alphabet's web search and Microsoft's desktop operating system may meet a concentration threshold in **non-AI product markets**. They are excluded from the core result because using an adjacent legacy monopoly to label an AI product monopolistic would change the question.
-
-## Comparative investment analysis
-
-| Company | Source of pricing power | Strongest lock-in | Main attack vector | Principal noncompetitive risk |
-| --- | --- | --- | --- | --- |
-| ASML | No current alternative supplier for EUV | Customer process integration and tool fleet | Alternative lithography/process approaches; eventual competing EUV | Export controls and Zeiss single-source dependency |
-| Arm | Architecture ubiquity and broad licensing ecosystem | Software and developer compatibility | RISC-V and customer-owned architecture | Smartphone royalty dependence |
-| NVIDIA | Performance plus a full hardware/software/network stack | CUDA, libraries, trained developers, deployed systems | Custom ASICs, AMD, software portability | Customer concentration and export controls |
-| TSMC | Leading process, yield, scale, and packaging | Qualified chip designs and manufacturing learning | Samsung, Intel, customer dual-sourcing | Taiwan geopolitical and physical concentration |
-
-The strongest monopoly is **ASML in EUV**. The strongest disclosed installed architecture is **Arm in mobile application processors**. The most direct current AI economic exposure is **NVIDIA**. The broadest manufacturing bottleneck is **TSMC**.
-
-That ranking says nothing about expected shareholder return without valuation. Expected return requires, at minimum, current enterprise value, normalized free cash flow, dilution, capital intensity, cyclicality, tax, scenario probabilities, and the market's embedded growth assumptions. Market dominance is an input, not the answer.
-
-## Monitoring rules
-
-Update this report after each annual filing and when a credible market-share source changes its denominator or estimate. Track:
-
-1. **ASML:** EUV competitors, EUV unit shipments, High-NA adoption, China sales, top-customer concentration, Zeiss capacity.
-2. **Arm:** mobile application-processor share, smartphone royalty mix, RISC-V adoption, data-center and automotive royalty contribution.
-3. **NVIDIA:** merchant accelerator share by shipments and revenue, CUDA developer count, custom-ASIC deployments, top-customer concentration, China restrictions.
-4. **TSMC:** total foundry and leading-node share, 2 nm yield/ramp, advanced-packaging capacity, overseas-fab economics, geographic concentration.
-
-Delete a company from the core table if reliable evidence places its relevant share below 70% for two consecutive measurement periods or if the product ceases to be a necessary AI value-chain component.
+The strongest businesses are not automatically the strongest stocks. A near-monopoly priced for impossible growth can underperform a competitive supplier bought below replacement value.
 
 ## Sources
 
-All regulatory filings below are primary sources. Company claims about their own market position are labeled as such; third-party market-share estimates are not silently converted into facts.
-
-[^asml-20f]: ASML Holding N.V., 2025 Form 20-F, filed 2026-02-25, SEC: https://www.sec.gov/Archives/edgar/data/937966/000162828026011378/asml-20251231.htm
-[^arm-20f]: Arm Holdings plc, fiscal-2026 Form 20-F, filed 2026-05-26, SEC: https://www.sec.gov/Archives/edgar/data/1973239/000197323926000097/arm-20260331.htm
-[^nvda-10k]: NVIDIA Corporation, fiscal-2026 Form 10-K, filed 2026-02-25, SEC: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm
-[^tsm-20f]: Taiwan Semiconductor Manufacturing Company Limited, 2025 Form 20-F, filed 2026-04-16, SEC: https://www.sec.gov/Archives/edgar/data/1046179/000162828026025362/tsm-20251231.htm
-[^jpr-aib]: Jon Peddie Research, *Add-in Board Report*, quarterly shipment and segment market-share dataset; Q4-2025 result reported as NVIDIA 94%: https://www.jonpeddie.com/store/add-in-board-report-a-report-on-the-graphic-add-in-board-market/
-[^cma-models]: UK Competition and Markets Authority, *AI Foundation Models: Technical update report*, April 2024, paragraphs 2.30–2.33 and 5.15–5.19: https://assets.publishing.service.gov.uk/media/661e5a4c7469198185bd3d62/AI_Foundation_Models_technical_update_report.pdf
-[^trendforce-foundry]: TrendForce, “2Q25 Foundry Revenue Surges 14.6% to Record High, TSMC's Market Share Hits 70%,” 2025-09-01, and Q4/full-year 2025 foundry release, 2026-03-12: https://www.trendforce.com/presscenter
-[^nasdaq-quotes]: Nasdaq market-activity quote pages and quote service, retrieved 2026-06-22: https://www.nasdaq.com/market-activity/stocks/nvda, https://www.nasdaq.com/market-activity/stocks/asml, https://www.nasdaq.com/market-activity/stocks/arm, https://www.nasdaq.com/market-activity/stocks/tsm
+[^msft-10k]: Microsoft, fiscal-2025 Form 10-K, filed 2025-07-30: https://www.sec.gov/Archives/edgar/data/789019/000095017025100235/msft-20250630.htm
+[^amzn-10k]: Amazon.com, 2025 Form 10-K, filed 2026-02-06: https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm
+[^net-10k]: Cloudflare, 2025 Form 10-K, filed 2026-02-26: https://www.sec.gov/Archives/edgar/data/1477333/000147733326000016/cloud-20251231.htm
+[^sndk-10k]: SanDisk, fiscal-2025 Form 10-K, filed 2025-08-21: https://www.sec.gov/Archives/edgar/data/2023554/000202355425000034/sndk-20250627.htm
+[^asml-20f]: ASML, 2025 Form 20-F, filed 2026-02-25: https://www.sec.gov/Archives/edgar/data/937966/000162828026011378/asml-20251231.htm
+[^trendforce]: TrendForce foundry market releases, 2025-09-01 and 2026-03-12: https://www.trendforce.com/presscenter
+[^lightcounting]: LightCounting, optical transceiver market update, 2026-03-13: https://www.lightcounting.com
+[^nasdaq]: Nasdaq market-activity quote and institutional-holdings services, retrieved 2026-06-22: https://www.nasdaq.com/market-activity/stocks
