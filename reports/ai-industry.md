@@ -26,6 +26,7 @@ AWS is **not a listed company**. It is a segment of Amazon.com, Inc. (NASDAQ: AM
 | Oracle | NYSE: ORCL | OCI GPU superclusters, database, cloud applications | Smaller cloud share, but material AI-cluster deployments and database lock-in | $184.29 / $523.8B | Holder snapshot not included: Nasdaq response was incomplete |
 | Cloudflare | NYSE: NET | Workers AI runs models on serverless GPUs across its network; AI Gateway provides routing, security, caching and observability; Vectorize stores/queries embeddings; CDN, security and developer runtime provide distribution | Differentiated global edge footprint, but competes with Akamai, Fastly and hyperscalers; **not a monopoly** | $224.06 / $79.53B | Vanguard (2025-12-31); Capital World Investors (2026-03-31); BlackRock (2026-03-31) |
 | CoreWeave | NASDAQ: CRWV | GPU-specialized cloud and AI clusters | High direct AI exposure and concentration risk; competes with hyperscalers and other GPU clouds | $117.95 / $64.16B | Magnetar (2026-03-31); Vanguard (2025-12-31); Goldman Sachs (2026-03-31) |
+| Nebius Group | NASDAQ: NBIS | AI-native GPU cloud, NVIDIA GPU clusters, InfiniBand networking, managed ML tools and Token Factory inference | Specialized GPU-cloud competitor to CoreWeave, Crusoe and Lambda, as well as AWS/Azure/GCP/OCI; high growth and extreme capital intensity | $286.69 / $73.02B | BlackRock; Fred Alger Management; Orbis Allan Gray (all 2026-03-31) |
 | Akamai | NASDAQ: AKAM | CDN, security, edge compute and distributed cloud | Mature edge/CDN competitor; no AI monopoly | $124.91 / $17.90B | Vanguard (2025-12-31); BlackRock (2026-03-31); Vanguard Capital Management (2026-03-31) |
 | Fastly | NYSE: FSLY | Edge cloud, CDN, security and compute | Smaller challenger; materially weaker scale than Cloudflare/Akamai | $17.90 / $2.792B | Vanguard (2025-12-31); BlackRock (2026-03-31); Vanguard Portfolio Management (2026-03-31) |
 
@@ -60,7 +61,7 @@ This is an economically bounded universe: companies must sell a product used to 
 | Grid, generation and power train | Eaton (NYSE: ETN), Schneider Electric (EPA: SU), ABB (SIX/NYSE: ABB), Vertiv (NYSE: VRT), Delta Electronics (TWSE: 2308), nVent (NYSE: NVT), Siemens Energy (Xetra: ENR), GE Vernova (NYSE: GEV), Caterpillar (NYSE: CAT), Cummins (NYSE: CMI), Bloom Energy (NYSE: BE) | switchgear, transformers, busways, UPS, rectifiers, backup generation and fuel cells | Grid interconnection and transformers can be project bottlenecks; the vendor market is competitive and regional |
 | Cooling and thermal management | Vertiv, Schneider Electric, Johnson Controls (NYSE: JCI), Trane Technologies (NYSE: TT), Carrier (NYSE: CARR), Modine (NYSE: MOD), Munters (STO: MTRS), Daikin (TSE: 6367), Delta Electronics, Nidec (TSE: 6594), Asetek (CPH: ASTK) | chillers, CRAC/CRAH, rear-door heat exchangers, CDUs, cold plates, manifolds, pumps, fans and liquid-cooling controls | Fragmented by subsystem. Vertiv/Schneider have integrated data-center portfolios; no defensible claim that either monopolizes “AI cooling” |
 | Colocation and data-center landlords | Equinix (NASDAQ: EQIX), Digital Realty (NYSE: DLR), GDS (NASDAQ/HKEX: GDS), VNET (NASDAQ: VNET), NEXTDC (ASX: NXT), Keppel DC REIT (SGX: AJBU) | powered shells, interconnection, colocation and hyperscale campuses | Local power, land and network access create regional scarcity, not a global monopoly |
-| Cloud, edge and models | Microsoft, Amazon, Alphabet, Meta (NASDAQ: META), Oracle, IBM (NYSE: IBM), Alibaba (NYSE: BABA; HKEX: 9988), Tencent (HKEX: 0700), Baidu (NASDAQ: BIDU; HKEX: 9888), Cloudflare, Akamai, Fastly, CoreWeave | compute, storage, managed databases, model APIs, proprietary accelerators, edge inference and distribution | Hyperscale cloud is concentrated among AWS/Azure/Google; China is a separate competitive/regulatory market |
+| Cloud, edge and models | Microsoft, Amazon, Alphabet, Meta (NASDAQ: META), Oracle, IBM (NYSE: IBM), Alibaba (NYSE: BABA; HKEX: 9988), Tencent (HKEX: 0700), Baidu (NASDAQ: BIDU; HKEX: 9888), Cloudflare, Akamai, Fastly, CoreWeave, Nebius Group (NASDAQ: NBIS) | compute, storage, managed databases, model APIs, proprietary accelerators, GPU-specialized cloud, edge inference and distribution | Hyperscale cloud is concentrated among AWS/Azure/Google; specialized GPU clouds compete on accelerator availability, cluster performance and deployment speed; China is a separate market |
 | Data and enterprise software | Palantir (NASDAQ: PLTR), Snowflake (NYSE: SNOW), Datadog (NASDAQ: DDOG), ServiceNow (NYSE: NOW), Salesforce (NYSE: CRM), MongoDB (NASDAQ: MDB), Adobe (NASDAQ: ADBE), C3.ai (NYSE: AI) | data platforms, observability, workflow, agents and AI applications | Valuable installed bases, but disclosed “AI revenue” is often incomplete; do not value ordinary revenue as pure AI revenue |
 
 ### Strategically important private companies
@@ -85,7 +86,24 @@ Marvell operates mainly in the first three electronic/photonic stages. Its fisca
 | Photonic expansion | Marvell completed its Celestial AI acquisition on 2026-02-02; the filing records about $1.3B cash paid, 24.5M shares issued and potential contingent consideration | Adds scale-up Photonic Fabric technology, but also integration, dilution and earn-out risk |
 | Main risk | A few customers represent a significant portion of revenue; the filing flags growing data-center concentration | Hyperscaler design wins can produce discontinuous revenue in both directions |
 
-**BNIS status:** no `BNIS` ticker or matching issuer appears in the SEC company-ticker file checked on 2026-06-22. It is not added as a company because its legal name and exchange are unverified. Possible spelling similarity is not evidence.
+### Nebius Group: the corrected NBIS identification
+
+The supplied Yahoo Finance URL identifies **NASDAQ: NBIS**, Nebius Group N.V.; `BNIS` was a transposition. Nebius is not part of the optical-fiber layer. It belongs beside CoreWeave in specialized AI cloud infrastructure.
+
+| Item | Verified data | Interpretation |
+| --- | --- | --- |
+| Market data | 2026-06-22 previous close $286.69; market cap $73.02B; 52-week $43.89–$297.93 | The stock was near its 52-week high; market cap must be compared with revenue, contracted backlog, net cash/debt and future dilution |
+| Q1 2026 revenue | Group $399.0M, up 684% from $50.9M; Nebius AI cloud $389.7M versus $41.4M | AI cloud supplied about 97.7% of group quarterly revenue; growth is real but measured from a small capacity-ramp base[^nbis-q1] |
+| FY2025 revenue | $529.8M, up 479% from $91.5M | Q1 2026 alone equaled 75% of FY2025 revenue, demonstrating the speed of the ramp[^nbis-20f] |
+| Profitability | FY2025 operating loss $611.7M; Q1 2026 group adjusted EBITDA $129.5M | Adjusted EBITDA excludes economically relevant items; depreciation is especially important for short-lived GPU assets |
+| Capital intensity | FY2025 purchases of property/equipment $4.066B; year-end cash/equivalents $3.678B | FY2025 capex was 7.7× revenue. Financing access, utilization and GPU residual values dominate equity outcomes |
+| Capacity | About 170 MW active power at 2025 year-end; more than 2 GW contracted power disclosed after February 2026 expansion | Contracted power is not energized revenue-producing capacity; never value the entire 2 GW as operating capacity |
+| Products | GB300/GB200 NVL72, HGX B200/B300/H100 and RTX PRO 6000 GPU servers; NVIDIA InfiniBand NDR/XDR; managed ML and token inference | Direct accelerator/cloud exposure; also creates NVIDIA supply dependence and rapid-obsolescence risk |
+| Customers/competition | Filing identifies long-term contracts with Microsoft and Meta; competitors include CoreWeave, Crusoe, Lambda, AWS, GCP, Azure and Oracle | Large contracts improve visibility but increase customer, delivery and financing concentration |
+| Voting control | CEO/founder family trust held about 11% economic interest but about 52% voting power at 2026-03-31; insiders/pre-IPO holders together controlled about 59% | Public Class A shareholders do not control the company; dual-class governance is economically material |
+| Institutions | Nasdaq aggregation: BlackRock, Fred Alger Management and Orbis Allan Gray, all reported 2026-03-31 | These 13F positions do not supersede the founder family's voting control |
+
+**NBIS judgment:** direct AI exposure high; monopoly power low; execution risk high; capital intensity very high; governance risk high; financial-data confidence high. A $73B market cap against $529.8M FY2025 revenue is approximately **138× trailing revenue**, but that crude multiple is distorted by the rapid Q1 2026 ramp, cash/debt, warrants, convertibles and contracted capacity. It is a warning signal, not a standalone short thesis.
 
 ## 3. Required memory/storage correction: SanDisk and Micron
 
@@ -171,6 +189,8 @@ The strongest businesses are not automatically the strongest stocks. A near-mono
 [^sndk-10k]: SanDisk, fiscal-2025 Form 10-K, filed 2025-08-21: https://www.sec.gov/Archives/edgar/data/2023554/000202355425000034/sndk-20250627.htm
 [^asml-20f]: ASML, 2025 Form 20-F, filed 2026-02-25: https://www.sec.gov/Archives/edgar/data/937966/000162828026011378/asml-20251231.htm
 [^mrvl-10k]: Marvell Technology, fiscal-2026 Form 10-K, filed 2026-03-11: https://www.sec.gov/Archives/edgar/data/1835632/000183563226000011/mrvl-20260131.htm
+[^nbis-20f]: Nebius Group, 2025 Form 20-F, filed 2026-04-30: https://www.sec.gov/Archives/edgar/data/1513845/000110465926052948/nbis-20251231x20f.htm
+[^nbis-q1]: Nebius Group, Q1 2026 results furnished on Form 6-K, filed 2026-05-20: https://www.sec.gov/Archives/edgar/data/1513845/000110465926064092/nbis-20260331xex99d1.htm
 [^trendforce]: TrendForce foundry market releases, 2025-09-01 and 2026-03-12: https://www.trendforce.com/presscenter
 [^lightcounting]: LightCounting, optical transceiver market update, 2026-03-13: https://www.lightcounting.com
 [^nasdaq]: Nasdaq market-activity quote and institutional-holdings services, retrieved 2026-06-22: https://www.nasdaq.com/market-activity/stocks
